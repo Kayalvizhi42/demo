@@ -6,3 +6,11 @@ repos:
         entry: .venv/bin/python .git/hooks/add_copyright.py
         language: python
         files: \.py$
+
+      - id: generate-docs
+        name: Generate Markdown Docs for Python Files
+        entry: .venv/bin/python .git/hooks/generate_docs.py
+        language: python
+        additional_dependencies:
+          - pydoc-markdown
+        files: \.py$

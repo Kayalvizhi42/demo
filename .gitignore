@@ -1,0 +1,8 @@
+.venv
+.env
+dist
+*.egg-info
+docs.tgz
+ensure_config.sh
+uv.lock
+.python-version
