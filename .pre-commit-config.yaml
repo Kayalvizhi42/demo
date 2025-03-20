@@ -13,4 +13,4 @@ repos:
         language: python
         additional_dependencies:
           - pydoc-markdown
-        files: \.py$
+        files: ^src/.*\.py$
