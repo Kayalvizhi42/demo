@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: enforce-copyright
+        name: Enforce Copyright in Python Files
+        entry: .venv/bin/python hooks/add_copyright.py
+        language: python
+        files: \.py$
